@@ -40,8 +40,8 @@ class ContactPage extends React.Component {
         this.setState({
             disabled: true
         });
-
-        Axios.post('http://localhost:3030/api/email', this.state)
+        //http://localhost:3030/api/email
+        Axios.post('https://lit-oasis-44285.herokuapp.com/api/email', this.state)
             .then(res => {
                 if(res.data.success) {
                     this.setState({

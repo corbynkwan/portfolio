@@ -1,0 +1,33 @@
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+    max-width:100%;
+  }
+  
+  .profile {
+    max-width: 18em;
+  }
+  
+  .my-details {
+    background-color: 	#E8E8E8;
+  }
+  
+  .aboutContainer { 
+    max-width:90%;
+    margin:auto;
+  }
+
+  .desc { 
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+  .red { 
+    color:"#DC143C";
+  }
+
+  .row-eq-height { 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  } 

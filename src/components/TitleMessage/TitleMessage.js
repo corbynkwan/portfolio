@@ -13,6 +13,10 @@ const MyTitleMessage = styled.h1`
   strong {
     font-size: 1.25em;
   }
+  .red { 
+    color:#DC143C;
+    font-weight: bolder;
+  }
   div {
     color: ${props => props.theme.textColor};
 
@@ -33,26 +37,27 @@ const MyTitleMessage = styled.h1`
 const TitleMessage = () => (
   <MyTitleMessage>
     <div >
-      <div className>
+      <div>
         <div className="main text-left ml-5">
-          Hi, I'm <strong>Corbyn</strong>
+          Hi, I'm <strong className = "red">Corbyn</strong>
           <br />
           <div className="main text-center">
           <span>
-            <strong>I am a</strong>
+            I am a
           </span>
           </div>
         </div>
-        <div className={classes.sub}>
-          <Typewriter
+        <strong >
+          <Typewriter 
             options={{
-              strings: ["Software Engineer", "Student", "Web Developer"],
+              strings: ["Looking for a Summer 2021 Internship","Software Engineer", "Student", "Web Developer"],
               autoStart: true,
+              wrapperClassName:"red",
               loop: true,
               delay: 50
             }}
           />
-        </div>
+        </strong>
       </div>
     </div>
   </MyTitleMessage>

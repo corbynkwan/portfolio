@@ -7,10 +7,11 @@
   .profile {
     max-width: 18em;
   }
-  
+  /* change color if u want to put a background around desc
   .my-details {
-    background-color: 	#E8E8E8;
+    color: red;
   }
+  */
   
   .aboutContainer { 
     max-width:90%;
@@ -22,7 +23,7 @@
     font-weight: normal;
   }
   .red { 
-    color:"#DC143C";
+    color:#DC143C;
   }
 
   .row-eq-height { 

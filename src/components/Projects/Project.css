@@ -1,0 +1,19 @@
+.desc { 
+    letter-spacing: 0px;
+    font-weight: normal;
+  }
+
+.image {
+  max-height:500px; 
+  max-width: 500px;
+  height:500px; 
+  width: 500px;
+  text-align:center;
+  margin:auto;
+}
+.image-container {
+  height:650px; 
+  width: 500px;
+  text-align:center;
+  margin:auto;
+}

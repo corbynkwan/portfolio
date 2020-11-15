@@ -26,7 +26,7 @@ class Carousel extends React.Component {
                     title: 'Evverest',
                     subTitle: 'A social network for developers',
                     imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://github.com/corbynkwan',
                     selected: false
                 },
             ]

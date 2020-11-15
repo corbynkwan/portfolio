@@ -27,25 +27,27 @@ function AboutPage(props) {
                 <Col className="row-eq-height"  >
                   <Row className="my-details rounded " >
                   <h3 className="ml-2 desc">
-                    Hi there! I'm, Corbyn, A Software Engineer from Vancouver, Canada
+                    Hi there! I'm, <span className="red">Corbyn</span> from Vancouver, Canada.
                     <br/>
+                    <br />I'm currently a 3rd Year student at the <span className="red">University of British Columbia</span> specializing in Computer Science. 
                     <br/>
-                    <br />I'm currently a 3rd Year student at the University of British Columbia specializing in Computer Science.
+                    <br />I'm also looking for a <span className="red">Summer 2021 Internship</span> so if you're looking for someone let me know!
                     <br/>
-                    <br/>
-                    In my free time, I enjoy immersing myself as a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
-                    <br />
-                    <br />
 
+                    <br/>
+                    In my free time, I enjoy immersing myself as a Full Stack Web Developer and use <span className="red">React.js</span>, <span className="red">Redux</span>, <span className="red">Ruby On Rails</span>,<span className="red"> Express.js</span>, <span className="red"> Node.js</span>, and <span className="red">PostgreSQL</span> as my tech stack.
+                    <br />
+                    <br />
                     Furthermore, as a teaching assistant in foundational programming courses, I am experienced in software design, design patterns, and good coding practices.
                     <br />
-                    <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                    <br />I love learning about new technologies, and integrate them to build better and scalable products.
                     <br /> <br />
                     </h3>
                     <Col className="d-flex justify-content-center flex-wrap">
                       <div>
-                        <a href="./contact">
+                        <a href="mailto:corbynkwan@gmail.com">
                           <Button className="m-2" variant="outline-primary">
+                          <i className="fas fa-envelope-square mr-1"></i> 
                             Let's talk
                           </Button>
                         </a>
@@ -53,6 +55,7 @@ function AboutPage(props) {
                       <div>
                         <a href={resumePdf} target="_blank" >
                           <Button className="m-2" variant="outline-success">
+                          <i className="fa fa-file-text mr-1"></i> 
                             My Resume
                           </Button>
                         </a>
@@ -60,6 +63,7 @@ function AboutPage(props) {
                       <div>
                         <a href="https://github.com/corbynkwan" target="_blank" rel="noopener noreferrer">
                           <Button className="m-2" variant="outline-dark">
+                          <i className="fab fa-github-square mr-1"></i> 
                             GitHub
                           </Button>
                         </a>
@@ -67,6 +71,7 @@ function AboutPage(props) {
                       <div>
                         <a href="https://linkedin.com/in/corbyn-kwan" target="_blank" rel="noopener noreferrer">
                           <Button className="m-2" variant="outline-info">
+                          <i className="fab fa-linkedin mr-1"></i> 
                             LinkedIn
                           </Button>
                         </a>

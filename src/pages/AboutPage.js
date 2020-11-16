@@ -38,7 +38,8 @@ function AboutPage(props) {
                     In my free time, I enjoy immersing myself as a Full Stack Web Developer and use <span className="red">React.js</span>, <span className="red">Redux</span>, <span className="red">Ruby On Rails</span>,<span className="red"> Express.js</span>, <span className="red"> Node.js</span>, and <span className="red">PostgreSQL</span> as my tech stack.
                     <br />
                     <br />
-                    Furthermore, as a teaching assistant in foundational programming courses, I am experienced in software design, design patterns, and good coding practices.
+                    {//Furthermore, as a teaching assistant in foundational programming courses, I am experienced in software design, design patterns, and good coding practices.
+                    }
                     <br />
                     <br />I love learning about new technologies, and integrate them to build better and scalable products.
                     <br /> <br />

@@ -23,14 +23,20 @@ class Project extends React.Component {
       if(this.props.hasWebsite == true) {  
         websiteButton = 
         <a href={this.props.website}>
-          <Button className="m-2" variant="outline-primary">Website</Button>
+          <Button className="m-2" variant="outline-primary">
+          <i className="fas fa-globe mr-1"></i> 
+            Website
+          </Button>
         </a>
       }
       let githubButton = null;
       if(this.props.hasGithub == true) {  
         githubButton = 
         <a href={this.props.github}>
-          <Button className="m-2" variant="outline-primary">Github</Button>
+                          <Button className="m-2" variant="outline-dark">
+                          <i className="fab fa-github-square mr-1"></i> 
+                            GitHub
+                          </Button>
         </a>
       }
       return (

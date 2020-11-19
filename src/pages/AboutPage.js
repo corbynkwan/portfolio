@@ -18,7 +18,7 @@ function AboutPage(props) {
         <Hero title={props.title} />
 
           <div className = "aboutContainer " >
-              <Row xl >
+              <Row className="safariFlexSupport" xl >
                 <Col xs sm lg md xl = {3} >
                   <Row   className="justify-content-center mb-2 mr-2 ">
                     <Image className="profile justify-content-end " alt="profile" src={Profile} thumbnail fluid />

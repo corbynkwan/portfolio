@@ -9,12 +9,21 @@ class Projects extends React.Component {
       super(props);
       this.state = {
         projects: [
+              {
+                title: "UBC Grade Data Query System",
+                desc: "A website where students can track course data.",
+                hasGithub: false, 
+                hasWebsite: true,
+                website: 'https://limitless-harbor-21538.herokuapp.com/',
+                images : this.importAll(require.context('../../assets/images/ubcquery/', false, /\.(PNG|jpe?g|svg)$/))
+            },
             {
                 title: "Fruit Shop Website",
                 desc: "A React website where users can buy fruits. Database stores user personal and order details",
                 hasGithub: true, 
                 github:'https://github.com/corbynkwan/Fruit-Shop',
-                hasWebsite: false,
+                hasWebsite: true,
+                website:'https://floating-dawn-11527.herokuapp.com/',
                 images : this.importAll(require.context('../../assets/images/fruitwebsite/', false, /\.(PNG|jpe?g|svg)$/))
             },
             {
@@ -32,13 +41,6 @@ class Projects extends React.Component {
                 hasWebsite: true,
                 website:'https://jaro.org.my/',
                 images : this.importAll(require.context('../../assets/images/jaro/', false, /\.(PNG|jpe?g|svg)$/))
-            },
-            {
-                title: "UBC Grade Data Query System",
-                desc: "A website where students can track course data.",
-                hasGithub: false, 
-                hasWebsite: false,
-                images : this.importAll(require.context('../../assets/images/ubcquery/', false, /\.(PNG|jpe?g|svg)$/))
             }
         ]
       };

@@ -43,14 +43,14 @@ const TitleMessage = () => (
           <br />
           <div className="main text-center">
           <span>
-            I am a
+            I am
           </span>
           </div>
         </div>
         <strong >
           <Typewriter 
             options={{
-              strings: ["Looking for a Summer 2021 Internship","Software Engineer", "Student", "Web Developer"],
+              strings: ["Looking for a Summer 2021 Internship","a Software Engineer", "a Student", "a Full-Stack Developer"],
               autoStart: true,
               wrapperClassName:"red",
               loop: true,

@@ -18,6 +18,15 @@ class Projects extends React.Component {
                 images : this.importAll(require.context('../../assets/images/ubcquery/', false, /\.(PNG|jpe?g|svg)$/))
             },
             {
+              title: "Find My Neighbourhood",
+              desc: "A website where users can find the ideal neighbourhood to live in.",
+              hasGithub: true, 
+              github: 'https://github.com/ksapru/nwHacks2021',
+              hasWebsite: true,
+              website: 'https://findmyneighbourhood.herokuapp.com/',
+              images : this.importAll(require.context('../../assets/images/findmyneighbourhood/', false, /\.(PNG|jpe?g|svg|png)$/))
+          },
+            {
                 title: "Fruit Shop Website",
                 desc: "A React website where users can buy fruits. Database stores user personal and order details",
                 hasGithub: true, 

@@ -35,12 +35,12 @@ function AboutPage(props) {
                     <br/>
 
                     <br/>
-                    In my free time, I enjoy immersing myself as a Full Stack Web Developer and use <span className="red">React.js</span>, <span className="red">Redux</span>, <span className="red">Ruby On Rails</span>,<span className="red"> Express.js</span>, <span className="red"> Node.js</span>, and <span className="red">PostgreSQL</span> as my tech stack.
+                    In my free time, I enjoy immersing myself as a Full Stack Web Developer and use <span className="red">React.js</span>, <span className="red">Node.js</span>,<span className="red"> Express.js</span>, and <span className="red">PostgreSQL</span> as my tech stack.
                     <br />
                     <br />
                     Furthermore, as a teaching assistant in foundational programming courses, I am experienced in software design, design patterns, and good coding practices.
                     <br />
-                    <br />I love learning about new technologies, and integrate them to build better and scalable products.
+                    <br />I love learning about new technologies, and integrating them to build better and scalable products.
                     <br /> <br />
                     </h3>
                     <Col className="d-flex justify-content-center flex-wrap">

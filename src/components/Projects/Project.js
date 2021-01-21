@@ -1,13 +1,26 @@
 import React from 'react';
 import styled from "styled-components";
-import "./Project.css";
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "react-bootstrap/Button";
 
 //For loop for projects, and 
+const GalleryContainer = styled.div`
+.image-gallery {
+   // your styles
+ }
+.image-gallery-slide {
 
+}
+.container {
+  max-width: 500px;
+}
+.desc { 
+  letter-spacing: 0px;
+  font-weight: normal;
+}
+`
 class Project extends React.Component {
     constructor(props) {
         super(props);
@@ -17,7 +30,8 @@ class Project extends React.Component {
     render() {
       let images = [];
       for(let image of Object.keys(this.props.imagesOfProject)) { 
-        images.push({original: this.props.imagesOfProject[image], thumbnail: this.props.imagesOfProject[image], originalClass: "image"}); 
+        images.push({original: this.props.imagesOfProject[image], thumbnail: this.props.imagesOfProject[image], 
+          media : '(max-width: 100px)', }); 
       }
       let websiteButton = null;
       if(this.props.hasWebsite == true) {  
@@ -41,13 +55,21 @@ class Project extends React.Component {
       }
       return (
         <div className="text-center">
+                      <GalleryContainer>
+
+                        <div className="project-container">
+
             <h1>{this.props.title}</h1>
             <h2 className="desc">{this.props.desc}</h2>
             {websiteButton}
             {githubButton}
-            <div className="image-container">
+              <div className="container">
             <ImageGallery  items={images} />
             </div>
+            </div>
+            </GalleryContainer>
+
+
         </div>
       );
     }

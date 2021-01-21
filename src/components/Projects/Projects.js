@@ -9,6 +9,13 @@ class Projects extends React.Component {
       super(props);
       this.state = {
         projects: [
+          {
+            title: "Logistics System",
+            desc: "Mobile App made for a local company to manage their logistics",
+            hasGithub: false, 
+            hasWebsite: false,
+            images : this.importAll(require.context('../../assets/images/logisticssystem/', false, /\.(PNG|jpe?g|svg)$/))
+        },
               {
                 title: "UBC Grade Data Query System",
                 desc: "A website where students can track course data.",

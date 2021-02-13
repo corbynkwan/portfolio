@@ -10,6 +10,14 @@ class Projects extends React.Component {
       this.state = {
         projects: [
           {
+            title: "Pickup Scheduling System",
+            desc: "Winner of BizHacks 2021! A Mobile and Web App where users can schedule when to pickup their order and have their location sent in real time to a Best Buy employee",
+            hasGithub: false, 
+            hasWebsite: false,
+            images : this.importAll(require.context('../../assets/images/bestbuy-geolocation-app/', false, /\.(PNG|jpe?g|svg)$/))
+          }
+          ,
+          {
             title: "Logistics System",
             desc: "Mobile App made for a local company to manage their logistics",
             hasGithub: false, 

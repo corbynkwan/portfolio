@@ -13,9 +13,9 @@ class Projects extends React.Component {
             title: "Pickup Scheduling System",
             desc: "Winner of BizHacks 2021! A Mobile and Web App where users can schedule when to pickup their order and have their location sent in real time to a Best Buy employee",
             hasGithub: true,
-            github:'https://github.com/corbynkwan/bestbuy-geolocation-app/tree/master/mobile_frontend',
+            github:'https://github.com/corbynkwan/bestbuy-geolocation-app',
             hasWebsite: false,
-            images : this.importAll(require.context('../../assets/images/bestbuy-geolocation-app/', false,  /\.(PNG|jpe?g|svg|png)$/))
+            images : this.importAll(require.context('../../assets/images/bizhacks2021/', false,  /\.(PNG|jpe?g|svg|png)$/))
           }
           ,
           {
